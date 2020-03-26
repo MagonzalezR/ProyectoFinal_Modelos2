@@ -10,4 +10,6 @@ El proyecto está realizado utilizando el framework flask, el cual nos permite u
 Se necesita tener mysql, ya que usa varias de sus librerías, como SQLAlchemy, pymysql y MySQL-Python <br />
 Tambien es necesario instalar flask y flask-wtf<br />
 El proyecto utiliza los siguientes lenguajes de programación: python, javascript y sql <br />
-Como paradigmas implementados estan:
+Como paradigmas implementados estan:<br />
+Paradigma imperativo: python y javascript utilizan este paradigma para definir funciones y utilizar valores guardados en el programa.<br />
+Paradigma orientado a objetos: Para
