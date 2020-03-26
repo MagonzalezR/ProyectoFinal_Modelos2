@@ -53,19 +53,84 @@ input, textarea {
     font-size: 20px;
 }
 
-#boton { 
-    background-color: #410303;
+#boton1 { 
+    background: url(../img/fotoCal.png);
+    color: black;
+    padding: 20px;
+    size: 30px;
+    align-items: center;
+}
+
+#boton2 { 
+    background: url(../img/fotoRuner.png);
+    color: #fff;
+    padding: 20px;
+    size: 30px;
+    align-items: center;
+}
+#boton3 { 
+    background: url(../img/fotoSalt.png);
+    color: #fff;
+    padding: 20px;
+    size: 30px;
+    align-items: center;
+}
+#boton4 { 
+    background: url(../img/fotoBuscF.png);
+    color: #fff;
+    padding: 20px;
+    size: 30px;
+    align-items: center;
+}
+
+#boton5 { 
+    background: url(../img/fotoGala.png);
+    color: black;
+    padding: 20px;
+    size: 30px;
+   align-items: center;
+}
+
+#botonL { 
+    background-color:darkred;
     color: #fff;
     padding: 20px;
     size: 50px;
+    height: 500px;
+    width: 50px;
 }
 
-#boton:hover {
-    cursor: pointer;
-}
+
+
+
 
 @media (max-width: 480px) {
     form{
         width: 100%;
     }
+}
+#contenedor {
+	position: relative;
+	width: 600px;
+	height: 300px;
+}
+#modal {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0,0,0,0.7);
+}
+#boton {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(60%);
+}
+#botonIns {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(60%);
 }
