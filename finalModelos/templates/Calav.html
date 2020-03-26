@@ -4,5 +4,6 @@
 	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/estiloCal.css')}}">
 {% endblock %}
 {% block contenido %}
+	<button id="boton1" type="submit" name="jugarCC" onclick="location.href='{{url_for('index')}}'">Volver</button>
 	<script type="text/javascript" src="{{url_for('static', filename='js/juegoCal.js')}}"></script>
 {% endblock %}

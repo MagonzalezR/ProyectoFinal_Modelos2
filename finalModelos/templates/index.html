@@ -4,12 +4,26 @@
 {% block contenido %}
 	<input type="hidden" name="csrf_token" value="{{csrf_token()}}" />
 	<h3>Bienvenido a Frev</h3>
-	<div>
+	<div >
+		<pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre>
 		<button id="boton1" type="submit" name="jugarCC" onclick="location.href='{{url_for('juego1')}}'">Jugar al Caza Calaveras</button>
+		<pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre>
 		<button id="boton2" type="submit" name="jugarRC" onclick="location.href='{{url_for('juego2')}}'">Jugar al Runer del Coronavirus</button>
+		<br />
+		<br />
+		<pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre>
 		<button id="boton3" type="submit" name="jugarS" onclick="location.href='{{url_for('juego3')}}'">Jugar al Saltarin</button>
+		<pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre>
 		<button id="boton4" type="submit" name="jugarBF" onclick="location.href='{{url_for('juego4')}}'">Jugar al Busca Flores </button>
+		<br />
+		<br />
+		<pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre>
 		<button id="boton5" type="submit" name="jugarVALG" onclick="location.href='{{url_for('juego5')}}'">Jugar al Vete a la galaga </button>
+		<br />
+		<br />
+		<pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre>
+		<button id="botonL" type="submit" onclick="location.href='{{url_for('logout')}}'">Log-out </button>
 	</div>
+	
 
 {% endblock %}
