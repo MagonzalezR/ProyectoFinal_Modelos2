@@ -1,10 +1,10 @@
 {% extends 'base/base1.html' %}
-{% block cabeza %} <title>Login</title> {% endblock %}
+{% block cabeza %} <title>Unirse</title> {% endblock %}
 
 {% block contenido %}
 	{% from "_macro.html" import render_field %}
 	
-	<form id="login-form" method="POST">
+	<form  method="POST">
 		<input type="hidden" name="csrf_token" value="{{csrf_token()}}" />
 		{{render_field(form.user, id='user')}}
 		<br />

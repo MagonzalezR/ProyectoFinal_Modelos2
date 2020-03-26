@@ -1,5 +1,5 @@
 {% extends 'base/base1.html' %}
-{% block cabeza %} <title>prueba</title> {% endblock %}
+{% block cabeza %} <title>Bienvenido</title> {% endblock %}
 
 {% block contenido %}
 	<input type="hidden" name="csrf_token" value="{{csrf_token()}}" />
@@ -21,7 +21,7 @@
 		<button id="boton5" type="submit" name="jugarVALG" onclick="location.href='{{url_for('juego5')}}'">Jugar al Vete a la galaga </button>
 		<br />
 		<br />
-		<pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre>
+		<pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre><pre style='display:inline'>&#09;</pre>
 		<button id="botonL" type="submit" onclick="location.href='{{url_for('logout')}}'">Log-out </button>
 	</div>
 	
