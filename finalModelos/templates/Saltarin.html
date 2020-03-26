@@ -9,5 +9,6 @@
     <script type="text/javascript" src="{{url_for('static', filename='js/Saltarin/principal.js')}}"></script>
 {% endblock %}
 {% block contenido %}
+	<button type="submit" onclick="location.href='{{url_for('index')}}'">Volver</button> 
     <div id="bloque_juego"></div>
 {% endblock %}

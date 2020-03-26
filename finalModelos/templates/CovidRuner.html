@@ -13,12 +13,13 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='/bootstrap/bootstrapRuner/css/bootstrap.min.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/estiloRuner.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/estilo.css')}}">
 	<script type="text/javascript" src="{{url_for('static', filename='/js/Runer/jQuery.js')}}"></script>
 	<script type="text/javascript" src="{{url_for('static', filename='/bootstrap/bootstrapRuner/js/bootstrap.min.js')}}"></script>
 </head>
 <body onkeyup="saltar(event);">
 	<nav class="navbar navbar-light bg-secondary">
+		<button type="submit" onclick="location.href='{{url_for('index')}}'">Volver</button> 
 		<h1 class="d-bock mx-auto">Covid - Runner</h1>
 		<p class="container d-block text-center">Protegete del covid, no dejes que te infecte</p>
 	</nav>
@@ -35,6 +36,12 @@
 				INSTRUCCIONES
 			</button>
 		</div>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
 		<div>
 			<h2 class="text-center">Tus resultados</h2>
 			<ul class="list-group">
