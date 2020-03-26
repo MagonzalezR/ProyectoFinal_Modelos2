@@ -12,4 +12,6 @@ Tambien es necesario instalar flask y flask-wtf<br />
 El proyecto utiliza los siguientes lenguajes de programación: python, javascript y sql <br />
 Como paradigmas implementados estan:<br />
 Paradigma imperativo: python y javascript utilizan este paradigma para definir funciones y utilizar valores guardados en el programa.<br />
-Paradigma orientado a objetos: Para
+Paradigma orientado a objetos: Como puente entre los datos y la base de datos<br />
+Paradigma logico: Usando sql, la base de datos relaciona los datos y da respuestas en base a su biblioteca de datos
+
